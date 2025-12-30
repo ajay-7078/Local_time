@@ -6,34 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="../styles.css" />
     <script type="module" src="scritps3.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Your Local Time</title>
-    <style>
-      body {
-        background-color: #212121;
-        color: #fff;
-      }
-      .center {
-        display: flex;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-      #clock {
-        font-size: 40px;
-        background-color: orange;
-        padding: 20px 50px;
-        margin-top: 10px;
-        border-radius: 10px;
-      }
-    </style>
+
+</style>
   </head>
   <body>
-  
-    <div class="center">
-      <div id="banner"><span>Your local time</span></div>
-      <div id="clock"></div>
+  <div class="clock-card">
+        <div class="country">India (IST)</div>
+        <div class="date" id="india-date"></div>
+        <div class="time" id="india"></div>
     </div>
-   
+    <div class="clock-card">
+        <div class="country">USA - New York (EST)</div>
+        <div class="date" id="usa-date"></div>
+        <div class="time" id="usa"></div>
+    </div>
+    <div class="clock-card">
+        <div class="country">UK - London (GMT)</div>
+        <div class="date" id="uk-date"></div>
+        <div class="time" id="uk"></div>
+    </div>
+    <div class="clock-card">
+        <div class="country">Japan - Tokyo (JST)</div>
+        <div class="date" id="japan-date"></div>
+        <div class="time" id="japan"></div>
+    </div>
   </body>
 </html>
